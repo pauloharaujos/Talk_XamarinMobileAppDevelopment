@@ -1,11 +1,12 @@
-﻿using System;
+﻿using App1.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
 
-namespace XamarinTestDrive
+namespace App1
 {
 	public partial class App : Application
 	{
@@ -13,7 +14,7 @@ namespace XamarinTestDrive
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinTestDrive.MainPage();
+            MainPage = new NavigationPage(new ListagemView());
 		}
 
 		protected override void OnStart ()
