@@ -1,4 +1,4 @@
-﻿using App1.Views;
+﻿using XamarinTestDrive.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace App1
+namespace XamarinTestDrive
 {
 	public partial class App : Application
 	{
