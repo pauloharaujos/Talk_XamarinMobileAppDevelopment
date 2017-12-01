@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace App1.Views
+namespace XamarinTestDrive.Views
 {
     public class Veiculo
     {
